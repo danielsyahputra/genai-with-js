@@ -1,0 +1,20 @@
+{
+  "name": "basic-openai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r ts-node/register --env-file=.env src/index.ts"
+  },
+  "author": "Daniel Syahputra",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "openai": "^5.16.0",
+    "tiktoken": "^1.0.22"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
